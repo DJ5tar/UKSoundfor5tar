@@ -10,6 +10,8 @@
         main { padding: 2em; }
         footer { background-color: #f1f1f1; text-align: center; padding: 1em; position: fixed; bottom: 0; width: 100%; }
     </style>
+ <!-- 引入外部 JavaScript 文件 -->
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -18,25 +20,10 @@
     <main>
         <h2>Welcome to UK Sound for 5tar</h2>
         <p>This is a placeholder for your music content.</p>
+        <button onclick="greet()">Click me to greet</button>
     </main>
     <footer>
         <p>&copy; 2024 UK Sound for 5tar</p>
     </footer>
 </body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>示例页面</title>
-    
-    <!-- 引入外部 JavaScript 文件 -->
-    <script src="script.js"></script>
-</head>
-<body>
-    <h1>欢迎来到示例页面</h1>
-    
-    <button onclick="greet()">点击我打招呼</button>
-</body>
-</html>
-
 </html>
